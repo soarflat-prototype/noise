@@ -2,3 +2,23 @@ extends ../../include/_layout
 block var
     - title = 'noise sum'
     - dirctory = 'noise_sum'
+block end_of_head
+    style(type='text/css').
+        canvas {
+            float: left;
+        }
+
+        #canvas7 {
+            float: none;
+            clear: both;
+            display: block;
+            margin: 0 auto;
+        }
+block body
+    canvas#canvas1
+    canvas#canvas2
+    canvas#canvas3
+    canvas#canvas4
+    canvas#canvas5
+    canvas#canvas6
+    canvas#canvas7
